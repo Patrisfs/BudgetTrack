@@ -1,8 +1,8 @@
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     background-color: #222;
-    padding: 1em;
+    padding: 1.2em;
 }
 .list{
     display: flex;
@@ -19,6 +19,6 @@
     text-decoration: none;
 }
 
-item a:hover{
+.item a:hover{
     color: #ffbb33;
 }
