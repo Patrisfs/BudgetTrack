@@ -1,46 +1,26 @@
 {
   "projects": [
     {
-      "budget": "500",
-      "name": "tesxte",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "t4este",
-      "budget": "5200",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "teste",
-      "budget": "200",
+      "name": "projeto 1",
+      "budget": "20000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 1
     },
     {
+      "name": "Projeto 2",
+      "budget": "60000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
-      "id": 4
+      "id": 2
     }
   ],
   "categories": [
