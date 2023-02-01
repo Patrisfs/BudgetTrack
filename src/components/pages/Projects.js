@@ -13,7 +13,7 @@ import styles from "./Projects.module.css"
 
 function Projects(){
 
-  const [projects, setprojects] = useState([])
+  const [projects, setProjects] = useState([])
   const [removeLoading, setRemoveLoading] =useState(false)
 
 
@@ -33,7 +33,7 @@ function Projects(){
       })
           .then((resp)=> resp.json())
           .then((data)=>{
-            setprojects(data)
+            setProjects(data)
             setRemoveLoading(true)
             console.log(data)
           })
@@ -42,6 +42,21 @@ function Projects(){
   },[])
 
 
+  function removeProject(id){
+
+    fetch(`http://localhost:5000/projects${id}`, {
+      method: 'DELETE',
+      headers:{
+        'content-type': 'application/json'
+      },
+    })
+    .then(resp => resp.json())
+    .then(data=>{
+      setProjects(projects.filter((project) => project.id !==id))
+      //message de remove
+    })
+    .catch(err => console.log(err))
+  }
 
     return(
         <div className={styles.project_container}>
@@ -58,8 +73,12 @@ function Projects(){
               budget={project.budget}
               category={project?.category?.name}
               key={project.category.id}  
+              handleRemove={removeProject}
               />)}
               {!removeLoading && <Loading/>}
+              {removeLoading && projects.length === 0 &&(
+                <p>Não há projetos cadastrados!</p>
+              )}
           </Container>
         </div>
     )
