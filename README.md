@@ -12,6 +12,7 @@ Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Co
 - Criar novos projetos
 - Definir valor a ser gasto
 - Acompanhar o progresso do projeto
+- Criar Tarefas para cada projeto
 
 ## Instalação
 
