@@ -35,7 +35,6 @@ function Projects(){
           .then((data)=>{
             setProjects(data)
             setRemoveLoading(true)
-            console.log(data)
           })
           .catch((err)=>console.log(err))
     },200);
@@ -44,7 +43,7 @@ function Projects(){
 
   function removeProject(id){
 
-    fetch(`http://localhost:5000/projects${id}`, {
+    fetch(`http://localhost:5000/projects/${id}`, {
       method: 'DELETE',
       headers:{
         'content-type': 'application/json'
