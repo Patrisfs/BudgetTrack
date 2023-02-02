@@ -15,6 +15,9 @@ Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Co
 
 ## Instalação
 
+você pode acessar o projeto por [aqui](https://budgettrack-patrisfs.netlify.app/), porém para rodar o backend localmente use os passos abaixo
+
+
 1. Clone este repositório:
 ```
 git clone https://github.com/Patrisfs/BudgetTrack.git
