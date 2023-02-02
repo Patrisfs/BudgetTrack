@@ -9,6 +9,7 @@ import Container from '../Layout/Container'
 import ProjectForm from '../Project/ProjectForm'
 import Message from '../Layout/Message'
 import ServiceForm from '../service/ServiceForm'
+import ServiceCard from '../service/ServiceCard'
 
 function Project() {
     let { id } = useParams()
@@ -16,9 +17,10 @@ function Project() {
     const [showProjectForm, setShowProjectForm] = useState(false)
     const [showServiceForm, setShowServiceForm] = useState(false)
     const [services, setServices] = useState([])
-    const [message, setMessage] = useState('')
-    const [type, setType] = useState('success')
-  
+    const [message, setMessage] = useState()
+    const [type, setType] = useState()
+
+
     useEffect(() => {
       // Para ver o loading
       setTimeout(
@@ -58,7 +60,7 @@ function Project() {
           setProject(data)
           setShowProjectForm(!showProjectForm)
           setMessage('Projeto atualizado!')
-          setType('success')
+          setType('sucess')
         })
     }
   
@@ -95,7 +97,7 @@ function Project() {
           setServices(data.services)
           setShowServiceForm(!showServiceForm)
           setMessage('Serviço adicionado!')
-          setType('success')
+          setType('sucess')
         })
     }
   
@@ -121,6 +123,7 @@ function Project() {
           setProject(projectUpdated)
           setServices(servicesUpdated)
           setMessage('Serviço removido com sucesso!')
+          setType('sucess')
         })
     }
   
@@ -159,7 +162,7 @@ function Project() {
                     </div>
                 <div className={styles.service_form_container}>
                     <h2>Adicionar um serviço:</h2>
-                    <button className={styles.btn} onClick={toggleServiceForm}>{!showServiceForm ? "Adicionar projeto" : "Fechar"}</button>
+                    <button className={styles.btn} onClick={toggleServiceForm}>{!showServiceForm ? "Adicionar serviço" : "Fechar"}</button>
                     <div className={styles.project_info}>
                             {showServiceForm && (<ServiceForm
                             handleSubmit={createService}
@@ -169,7 +172,18 @@ function Project() {
                 </div>
                 <h2>Serviços</h2>
                 <Container customClass="start">
-                    <p>Itens de serviços</p>
+                    {services.length > 0 && 
+                    services.map((service) => (
+                        <ServiceCard
+                        id ={service.id}
+                        name ={service.name}
+                        cost ={service.cost}
+                        description ={service.description}
+                        key ={service.id}
+                        handleRemove ={removeService}
+                        />
+                    ))
+                    }
                 </Container>
                 </Container>
                 </div>

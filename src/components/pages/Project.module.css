@@ -7,8 +7,8 @@
     margin-bottom: 0.5em;
 }
 .project_details h1{
-    background-color: #222;
-    color: #ffbb33;
+    background-color: #333D47;
+    color: #1BC3AA;
     padding: .4em;
 }
 .project_details span{
@@ -25,7 +25,7 @@
 }
 
 .btn{
-    background-color: #222;
+    background-color: #333D47;
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -36,7 +36,7 @@
 }
 
 .btn:hover{
-    color: #ffbb33;
+    color: #1BC3AA;
 }
 
 .project_info{

@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: right;
-    background-color: #222;
+    background-color: #333D47;
     padding: 1.2em;
 }
 .list{
@@ -20,5 +20,5 @@
 }
 
 .item a:hover{
-    color: #ffbb33;
+    color: #1BC3AA;
 }

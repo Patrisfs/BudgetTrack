@@ -2,18 +2,24 @@
   "projects": [
     {
       "name": "primeiro projeto atualizado 10",
-      "budget": "200",
+      "budget": "2000",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 200,
+      "cost": 400,
       "services": [
         {
           "name": "asdad",
           "cost": "200",
           "description": "asdfdsaf",
           "id": "e2bb58fb-f0d8-4761-a4eb-8f9063844c31"
+        },
+        {
+          "cost": "200",
+          "id": "a140ef68-c08f-4cd1-869b-5f5bf89f4650",
+          "description": "dasfsadf",
+          "name": "adadas"
         }
       ],
       "id": 1

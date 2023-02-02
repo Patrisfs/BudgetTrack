@@ -6,8 +6,8 @@
     margin: 0.5%;
 }
 .project_card h4{
-    background-color: #222;
-    color:#FFBB33;
+    background-color: #2e3a46;
+    color:#1BC3AA;
     padding: 0.4em;
     margin-bottom: 1.3em;
     font-size: 1.3em;
@@ -75,6 +75,6 @@
 
 .project_card_actions a:hover, 
 .project_card_actions button:hover{
-background-color: #222;
-color: #ffbb33;
+background-color: #333D47;
+color: #1BC3AA;
 }
