@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {parse, v4 as uuidv4} from 'uuid'
 
 import styles from './Project.module.css'
@@ -134,7 +135,6 @@ function Project() {
     function toggleServiceForm() {
       setShowServiceForm(!showServiceForm)
     }
-
     return (
         <>
             {project.name ?(
