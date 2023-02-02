@@ -71,7 +71,7 @@ function Projects(){
               id={project.id}
               budget={project.budget}
               category={project?.category?.name}
-              key={project.category.id}  
+              key={project?.category?.id}  
               handleRemove={removeProject}
               />)}
               {!removeLoading && <Loading/>}
