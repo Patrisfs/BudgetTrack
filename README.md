@@ -10,11 +10,25 @@ Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Co
 
 ## Instalação
 
-1. Clone este repositório: `git clone https://github.com/Patrisfs/BudgetTrack.git`
-2. Navegue até o diretório do projeto: `cd BudgetTrack`
-3. Instale as dependências: `npm install`
-4. Inicie a aplicação: `npm start`
-5. Inicie o backend: `npm run backend`
+1. Clone este repositório:
+```
+git clone https://github.com/Patrisfs/BudgetTrack.git
+
+cd BudgetTrack
+```
+2. Instale as dependências: 
+
+```
+npm install
+```
+
+3. Inicie a aplicação e o Back-end: 
+
+```
+npm start
+
+npm run backend
+```
 
 ## Uso
 
