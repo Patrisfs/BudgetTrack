@@ -142,7 +142,7 @@ function Project() {
                 <Container customClass='column'>
                     {message && <Message type={type} msg={message} />}
                     <div className={styles.details_container}>
-                        <h1>Projeto: {project.name}</h1>
+                        <h1>{project.name}</h1>
                         <button className={styles.btn} onClick={toggleProjectForm}>{!showProjectForm ? "Editar projeto" : "Fechar"}</button>
                         {!showProjectForm ?(
                             <div className={styles.project_info}>

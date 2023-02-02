@@ -1,28 +1,68 @@
 {
   "projects": [
     {
-      "name": "primeiro projeto atualizado 10",
+      "name": "Site para ecommerce",
       "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 1100,
+      "services": [
+        {
+          "name": "Front-end",
+          "cost": "1100",
+          "description": "Fazer o front-end da HomePage",
+          "id": "dc4618a8-3e98-474f-911a-4262e15a9ae1"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Projeto 2",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Projeto 3",
+      "budget": "60000",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 400,
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "name": "projeto 4",
+      "cost": 300,
       "services": [
         {
-          "name": "asdad",
-          "cost": "200",
-          "description": "asdfdsaf",
-          "id": "e2bb58fb-f0d8-4761-a4eb-8f9063844c31"
+          "name": "dfgdfxgf",
+          "cost": "100",
+          "description": "dgfuhdgh",
+          "id": "8cead37e-fa37-4fb0-930c-774e378a3d70"
         },
         {
+          "name": "123456789123",
+          "description": "\\sdf\\SWFGSGS",
           "cost": "200",
-          "id": "a140ef68-c08f-4cd1-869b-5f5bf89f4650",
-          "description": "dasfsadf",
-          "name": "adadas"
+          "id": "5c89ab1c-72f1-42e8-b0ca-e636687cf809"
         }
       ],
-      "id": 1
+      "id": 5
     }
   ],
   "categories": [
