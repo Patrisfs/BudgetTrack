@@ -1,4 +1,4 @@
-# Gerenciador de Projetos
+# BudgetTrack
 
 Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Com ele, você pode criar um novo projeto, definir o valor a ser gasto e acompanhar o progresso de sua realização.
 
@@ -10,8 +10,8 @@ Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Co
 
 ## Instalação
 
-1. Clone este repositório: `git clone https://github.com/Patrisfs/gerenciador-projetos.git`
-2. Navegue até o diretório do projeto: `cd gerenciador-projetos`
+1. Clone este repositório: `git clone https://github.com/Patrisfs/BudgetTrack.git`
+2. Navegue até o diretório do projeto: `cd BudgetTrack`
 3. Instale as dependências: `npm install`
 4. Inicie a aplicação: `npm start`
 5. Inicie o backend: `npm run backend`
