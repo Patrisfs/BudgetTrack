@@ -7,13 +7,19 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 1100,
+      "cost": 2000,
       "services": [
         {
           "name": "Front-end",
           "cost": "1100",
           "description": "Fazer o front-end da HomePage",
           "id": "dc4618a8-3e98-474f-911a-4262e15a9ae1"
+        },
+        {
+          "name": "back-end",
+          "cost": "900",
+          "description": "MySql...",
+          "id": "9d717fcb-9bfc-4ae0-b139-91d95e03a3c7"
         }
       ],
       "id": 2
@@ -41,28 +47,31 @@
       "id": 4
     },
     {
+      "name": "Projeto 4",
+      "budget": "20000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "budget": "50000",
-      "name": "projeto 4",
-      "cost": 300,
-      "services": [
-        {
-          "name": "dfgdfxgf",
-          "cost": "100",
-          "description": "dgfuhdgh",
-          "id": "8cead37e-fa37-4fb0-930c-774e378a3d70"
-        },
-        {
-          "name": "123456789123",
-          "description": "\\sdf\\SWFGSGS",
-          "cost": "200",
-          "id": "5c89ab1c-72f1-42e8-b0ca-e636687cf809"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 5
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "dfhdfgfd",
+      "budget": "52000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
