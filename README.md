@@ -2,7 +2,7 @@
 
 Este é um aplicativo web desenvolvido em React para gerenciar seus projetos. Com ele, você pode criar um novo projeto, definir o valor a ser gasto e acompanhar o progresso de sua realização.
 
-![Título da imagem](https://cdn.discordapp.com/attachments/1012186496251461722/1070773359681470484/PROJETOCOST.png)
+![Título da imagem](https://cdn.discordapp.com/attachments/1012186496251461722/1073803052714299412/1675379991291.png)
 
 
 
